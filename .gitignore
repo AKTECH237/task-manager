@@ -1,8 +1,27 @@
 HELP.md
 target/
-.mvn/wrapper/maven-wrapper.jar
+
 !**/src/main/**/target/
 !**/src/test/**/target/
+
+### Environment / Secrets ###
+.env
+*.env
+
+### Logs ###
+*.log
+
+### OS ###
+.DS_Store
+Thumbs.db
+
+### Frontend ###
+node_modules/
+dist/
+build/
+
+### Docker ###
+docker-compose.override.yml
 
 ### STS ###
 .apt_generated
@@ -25,7 +44,6 @@ target/
 /dist/
 /nbdist/
 /.nb-gradle/
-build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
