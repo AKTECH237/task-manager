@@ -63,3 +63,13 @@ Passwords are never stored in plain text. BCrypt is used to hash user passwords 
 ```http
 POST /api/auth/register
 POST /api/auth/login
+GET /api/tasks
+POST /api/tasks
+PUT /api/tasks/{id}
+DELETE /api/tasks/{id}
+
+```md
+- Secure task CRUD
+- Task ownership protection
+- Task filtering by status
+- Task search
